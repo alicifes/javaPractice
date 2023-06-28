@@ -1,3 +1,5 @@
+package com.jirengu.java.oop;
+
 public class Car {
     //状态 字段 fields 成员变量
     int topSpeed;

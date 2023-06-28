@@ -1,3 +1,5 @@
+package com.jirengu.java.basic;
+
 public class StringDemo {
     public static void main(String[] args) {
         //创建字符串

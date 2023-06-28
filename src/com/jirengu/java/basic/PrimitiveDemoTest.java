@@ -1,3 +1,5 @@
+package com.jirengu.java.basic;
+
 public class PrimitiveDemoTest {
     public static void main(String[] args) {
         byte byteData1 = 1;
