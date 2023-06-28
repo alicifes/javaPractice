@@ -14,6 +14,7 @@ public class Car {
         seats = 4;
         color = "red";
     }
+
     //方法（行为）
     void drive() {
         System.out.println("drive");
