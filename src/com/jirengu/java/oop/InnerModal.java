@@ -15,5 +15,7 @@ public class InnerModal {
 
     //堆 保存new出来的对象不联系  但是栈是一个连续的东西(线程)LIFO
     public static void main(String[] args) {
+        //在new 对象的过程中，首先要由一个空的栈来进行创建
+        //每一个方法都会创建一个栈帧在stack中，然后进行引用  （栈帧执行中会压栈，执行当前的方法）
     }
 }
