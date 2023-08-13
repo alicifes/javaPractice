@@ -15,7 +15,7 @@ public class Vehicle {
         this.maxSpeed = maxSpeed;
     }
 
-    void getPrintInfom () {
+    void getPrintInform () {
         System.out.println("name: " + name);
         System.out.println("color: " + color);
         System.out.println("year: " + year);

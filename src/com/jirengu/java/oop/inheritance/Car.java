@@ -4,16 +4,24 @@ public class Car extends Vehicle{
     public Car(String name, String color, int year, String model, int maxSpeed) {
         //调用父类的构造器
         super(name, color, year, model, maxSpeed);
+
+    }
+
+    @Override
+    void getPrintInform(){
+        //要写清楚是用什么来调用的
+        super.getPrintInform();
     }
 
     public static void main(String[] args) {
         Car car = new Car("BMW", "red", 2017, "X5", 300);
         //只有父类为public的时候才能使用
         System.out.println(car.name);
-        car.getPrintInfom();
+        car.getPrintInform();
         //instanceof 判断实例
         System.out.println(car instanceof Car);
         //super 用于在子类中找父类的属性 区分this
-        //再构造子类的时候，会先构造父类，会往上找，找到object
+        //再构造子类的时候，会先构造父类，会往上找，找到object,一个super就行，就能找到父类的构造器
+
     }
 }
