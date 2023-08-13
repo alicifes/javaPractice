@@ -1,7 +1,7 @@
 package com.jirengu.java.oop.inheritance;
 
 public class Vehicle {
-    String name;
+    private String name;
     private String color;
     private int year;
     private String model;
@@ -21,5 +21,56 @@ public class Vehicle {
         System.out.println("year: " + year);
         System.out.println("model: " + model);
         System.out.println("maxSpeed: " + maxSpeed);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                ", model='" + model + '\'' +
+                ", maxSpeed=" + maxSpeed +
+                '}';
     }
 }
