@@ -10,6 +10,8 @@
 */
 package com.jirengu.java.collection.info;
 
+import java.util.ArrayList;
+
 public class Info {
     //在 java 中，设计的时候是把 collect 接口和 map 接口分开的
     //collect 中有 set (hashSet) 和 list(ArrayList) 以及 map(hashMap)

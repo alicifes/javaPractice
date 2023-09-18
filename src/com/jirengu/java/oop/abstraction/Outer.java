@@ -24,9 +24,6 @@ public class Outer {
     }
 
     public class Bird {
-        public static void flyAble(){
-            System.out.println("111");
-        }
     }
 
     //匿名内部类
