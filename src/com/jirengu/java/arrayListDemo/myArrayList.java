@@ -1,6 +1,4 @@
 package com.jirengu.java.arrayListDemo;
-
-
 import static java.lang.System.*;
 
 public class myArrayList {

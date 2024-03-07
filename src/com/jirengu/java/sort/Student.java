@@ -23,4 +23,8 @@ public class Student implements Comparable<Student>{
             return 0;
         }
     }
+
+    public int getScore() {
+        return score;
+    }
 }
