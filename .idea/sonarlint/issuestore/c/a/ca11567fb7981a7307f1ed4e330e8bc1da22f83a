@@ -1,0 +1,29 @@
+
+T
+java:S1854">Remove this useless assignment to local variable "numberStr2".(à¸¨
+U
+java:S1854":Remove this useless assignment to local variable "intNum".(˜Ê¾®ÿÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "c".(Ú¾Šå
+Q
+java:S1854";Remove this useless assignment to local variable "length1".(Ï™ÛŞ
+L
+java:S1854"6Remove this useless assignment to local variable "s4".(Ò…µ¡
+Q
+java:S1854	"6Remove this useless assignment to local variable "s3".(¤Š¤÷øÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "s".(³ÕßÜüÿÿÿÿ
+A
+java:S1481"&Remove this unused "s" local variable.(³ÕßÜüÿÿÿÿ
+B
+java:S1481	"'Remove this unused "s3" local variable.(¤Š¤÷øÿÿÿÿ
+=
+java:S1481"'Remove this unused "s4" local variable.(Ò…µ¡
+B
+java:S1481",Remove this unused "length1" local variable.(Ï™ÛŞ
+<
+java:S1481"&Remove this unused "c" local variable.(Ú¾Šå
+F
+java:S1481"+Remove this unused "intNum" local variable.(˜Ê¾®ÿÿÿÿÿ
+E
+java:S1481"/Remove this unused "numberStr2" local variable.(à¸¨

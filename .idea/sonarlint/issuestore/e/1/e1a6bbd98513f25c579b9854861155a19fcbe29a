@@ -1,0 +1,16 @@
+
+@	java:S106"+Replace this use of System.out by a logger.(™ˆıõ
+@	java:S106"+Replace this use of System.out by a logger.(«•™®
+?
+java:S3985")Remove this unused private "Inner" class.(ÑÌı
+@	java:S106"+Replace this use of System.out by a logger.(…ğ¾Œ
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ğò¶øÿÿÿÿ
+S
+java:S1854 "8Remove this useless assignment to local variable "bird".(üœéˆüÿÿÿÿ
+A
+java:S1172"+Remove this unused method parameter "args".(Î½ºğ
+D
+java:S1481 ")Remove this unused "bird" local variable.(üœéˆüÿÿÿÿ
+@
+java:S1068"*Remove this unused "number" private field.(òù´Ê

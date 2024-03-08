@@ -1,0 +1,14 @@
+
+D
+java:S3740"/Provide the parametrized type for this generic.(¨»Èa
+D
+java:S3740"/Provide the parametrized type for this generic.(¨»Èa
+\
+java:S1854"ARemove this useless assignment to local variable "arrListString".(šÞå¿ûÿÿÿÿ
+M
+java:S1481"2Remove this unused "arrListString" local variable.(šÞå¿ûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(£Ëá³
+?	java:S106"+Replace this use of System.out by a logger.(ƒÚáB
+@	java:S106""+Replace this use of System.out by a logger.(ªþ§·
+E	java:S106&"+Replace this use of System.out by a logger.(Ï¬ÃŒÿÿÿÿÿ
+P	java:S125*"<This block of commented-out lines of code should be removed.(±‰ó?
