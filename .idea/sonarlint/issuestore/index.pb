@@ -96,3 +96,9 @@ g
 7src/com/jirengu/java/oop/enscapsulation/UserSystem.java,5/9/59f35ac97d1b2158790fb2823212e5602ae1fcd0
 X
 (src/com/jirengu/java/oop/ReloadItem.java,5/2/524fef32a1c2aeb58b665e449efa53d8ff199ea4
+a
+1src/com/jirengu/java/hashMapTest/HashMapDemo.java,0/d/0d4149b44a81ab4ed1b3b49221e4bf5293743850
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
