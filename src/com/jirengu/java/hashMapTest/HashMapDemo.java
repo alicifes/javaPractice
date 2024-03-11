@@ -40,5 +40,17 @@ public class HashMapDemo {
         }
         //4.推荐使用lamda forEach
         hashMap.forEach((k, v) -> System.out.println("key" + k + "value" + v));
+        //hash函数本质上是生成独一无二的hash的函数
+        //使用times 33算法
+        //生成一个times33算法
+        //在String中有一个hashcode的方法，该方法使用times33算法。
+        //使用的值为31，因为其是一个质数，而且接近2的5次方，方便使用位运算
+        //改变hash索引，求模，java使用0.75的负载因子
+
+        //开放寻址法 线性探测
+
+        //开散列 open hashing 也叫做拉链法
+        //基于数组 + 链表 1.7之前
+        // => 红黑树 1.8之后
     }
 }
