@@ -39,7 +39,27 @@ public class MyHashMap<K, V> {
             this.key = key;
             this.value = value;
             this.next = next;
+
         }
+
+        public K getKey() {
+            return key;
+        }
+
+        public void setKey(K key) {
+            this.key = key;
+        }
+
+        public V getValue() {
+            return value;
+        }
+
+        public void setValue(V value) {
+            this.value = value;
+        }
+    }
+    private int hash(K key) {
+        return key == null ? 0 : key.hashCode() & (capacity - 1);
     }
 
     //put delete get 方法
@@ -48,7 +68,20 @@ public class MyHashMap<K, V> {
      * @param value
      */
     public Node<K, V> put(K key, V value) {
-        throw new RuntimeException();
+        int index = hash(key);
+        if(table[index] == null) {
+            table[index] = new Node<>(key, value, null);
+            size++;
+        } else {
+            Node<K, V> node = table[index];
+            while (node != null) {
+                if (node.getKey().equals(key)) {
+                    node.setValue(value);
+                    return node;
+                }
+                node = node.next;
+            }
+        }
     }
 
     public Node<K, V> delete(K key) {
