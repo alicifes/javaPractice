@@ -1,0 +1,9 @@
+
+g	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8²úŞã1
+g	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8²úŞã1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓØ®•8‚²úŞã1
+L	java:S106d"+Replace this use of System.out by a logger.( Á·–úÿÿÿÿ8²úŞã1
+L	java:S106e"+Replace this use of System.out by a logger.(…ÒØãşÿÿÿÿ8²úŞã1
+G	java:S106f"+Replace this use of System.out by a logger.(şÉ×û8²úŞã1
+P
+java:S1068".Remove this unused "loadFactor" private field.(Û¬Ø¶øÿÿÿÿ8²úŞã1
